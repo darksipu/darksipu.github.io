@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* navbar*/
+#side {
+    float:left;
+    width: 20%;
+    top:0;
+    bottom:0;
+    padding: 0;
+    margin:0;
+    background-color: #b38030;
+}
+
+
+/* The list*/
+.navy {
+    display: block;
+    list-style: none !important;
+    margin: 20% 0 1% 18%;
+    padding: 0 0 2% 0;
+}
+
+.navy-link {
+    font-family: Montserrat;
+    font-size: 1.7vw;
+    float: left;
+    position: relative;
+    padding: 20px 0 0 0;
+}
+
+.navy-link a {
+    padding: 0 0 0 0;
+    text-decoration: none !important;
+    color: white;
+}
+
+.side-category {
+    display: block;
+    list-style: none !important;
+    margin: 3% 0 1% 0;
+    padding: 0 0 2% 0;
+}
+
+.project-name {
+    font-family: Cuprum;
+    font-size: 1.5vw;
+    float: left;
+    position: relative;
+    padding: 20px 15px 0 5px !important;
+}
+
+
+#tabula {
+    margin:0 !important;
+    padding: 0 !important;
+    position: relative;
+    display: block;
+
+}
+
+
+.project-image {
+    margin:0 0 1% 3%;
+    display: inline-flex;
+    width: 80%;
+    height: 30%;
+}
+
+.descriptions {
+    padding: 10% 10% 0 5%;
+    margin:0;
+    font-size: 1.3vw;
+    font-family: Lato;
+}
+
+.description-container {
+    display: none;
+}
+
+
+
+#contact-details1, #contact-details2, #contact-details3 {
+    padding: 5% 10% 0 5%;
+    margin:0;
+    font-size: 1.6vw;
+    font-family: Lato;
+    display: none;
+}
+
+#pictures-3rd, #pictures-games, #pictures-4th, #pictures-swarms, #pictures-website {
+    display: none;
+}
+
+
+.intro {
+    padding: 10% 10% 0 5%;
+    margin:0;
+    font-size: 1.5vw;
+    font-family: Roboto Mono;
+}
+
+#museumvideo {
+    margin: 5% 0 1% 3%;
+}
+
+.btns {
+    margin: 10% 1% 0 3%;
+    background-color: #23bfdc;
+}
+
+#button-website {
+    margin: 5% 0 0 30%;
+}
+
+#button-3rd {
+    margin: 5% 0 0 30%;
+}
+
+#button-4th {
+    margin: 5% 0 0 30%;
+}
+
+#button-games1 {
+    margin-left:10%;
+}
