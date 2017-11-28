@@ -19,7 +19,7 @@
     bottom:0;
     padding: 0;
     margin:0;
-    background-color: #b38030;
+    background-color: #3c7ee4;
 }
 
 
@@ -53,11 +53,21 @@
 }
 
 .project-name {
+
     font-family: Cuprum;
-    font-size: 1.5vw;
-    float: left;
+    font-size: 1.2vw;
+    float: right;
     position: relative;
     padding: 20px 15px 0 5px !important;
+}
+
+.heads {
+    float:right;
+}
+svg {
+    float:left;
+    margin: 0;
+    padding: 0 0 1% 0;
 }
 
 
@@ -98,7 +108,7 @@
     display: none;
 }
 
-#pictures-3rd, #pictures-games, #pictures-4th, #pictures-swarms, #pictures-website {
+#pictures-3rd, #pictures-games, #pictures-4th, #pictures-hatch, #pictures-website {
     display: none;
 }
 
@@ -106,7 +116,7 @@
 .intro {
     padding: 10% 10% 0 5%;
     margin:0;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     font-family: Roboto Mono;
 }
 
@@ -133,4 +143,11 @@
 
 #button-games1 {
     margin-left:10%;
+}
+
+#project-image-1, #project-image-2, #project-image-3, #project-image-4 {
+    position: relative;
+    display: inline-block;
+    height: 90%;
+    width: 90%;
 }
