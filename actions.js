@@ -61,7 +61,7 @@ $( document ).ready(function() {
         $("#button-3rd2").css("opacity", "0.7");
         $("#descriptions-3rd").children().slice(0,number3rd-3).hide();
 
-        $("#descriptions-3rd").children().slice(6,9).fadeIn(1500);
+        $("#descriptions-3rd").children().slice(6,8).fadeIn(1500);
 
     });
 
@@ -70,7 +70,7 @@ $( document ).ready(function() {
         $("#button-3rd3").css("opacity", "0.7");
         $("#descriptions-3rd").children().slice(0,number3rd-3).hide();
 
-        $("#descriptions-3rd").children().slice(9,12).fadeIn(1500);
+        $("#descriptions-3rd").children().slice(8,11).fadeIn(1500);
 
     });
 
@@ -80,7 +80,10 @@ $( document ).ready(function() {
         $("#pictures").children().hide();
         $("#descriptions").children().hide();
 
-        $("#pictures-4th").fadeIn();
+        $("#pictures-4th").show();
+        $("#pictures-4th").children().slice(1,3).hide();
+        $("#pictures-4th").children().slice(0,1).fadeIn(1900);
+
         $("#descriptions-4th").fadeIn('slow');
 
         $("#descriptions-4th").children().slice(0,number4th-3).hide();
@@ -102,7 +105,9 @@ $( document ).ready(function() {
     $("#button-4th2").click(function(){
         $("#descriptions-4th").children().slice(number4th-3,number4th).css("opacity", "1");
         $("#button-4th2").css("opacity", "0.7");
+        $("#pictures-4th").children().hide();
 
+        $("#pictures-4th").children().slice(1,3).fadeIn();
         $("#descriptions-4th").children().slice(0,number4th-3).hide();
         $("#descriptions-4th").children().slice(7,10).fadeIn(1500);
 
@@ -126,7 +131,10 @@ $( document ).ready(function() {
         $("#descriptions").children().hide();
         $("#pictures").children().hide();
 
-        $("#pictures-games").fadeIn(1900);
+        $("#pictures-games").show();
+        $("#pictures-games").children().slice(0,4).fadeIn(1900);
+        $("#pictures-games").children().slice(4,6).hide();
+
         $("#descriptions-games").fadeIn(2300);
 
         $("#descriptions-games").children().slice(0,numbergames-3).hide();
@@ -141,7 +149,9 @@ $( document ).ready(function() {
         $("#descriptions-games").children().slice(numbergames-3,numbergames).css("opacity", "1");
         $("#button-games1").css("opacity", "0.7");
         $("#descriptions-games").children().slice(0,13).hide();
+        $("#pictures-games").children().slice(0,6).hide();
 
+        $("#pictures-games").children().slice(4,5).fadeIn();
         $("#descriptions-games").children().slice(3,6).fadeIn(1500);
 
     });
@@ -150,7 +160,11 @@ $( document ).ready(function() {
     $("#button-games2").click(function(){
         $("#descriptions-games").children().slice(numbergames-3,numbergames).css("opacity", "1");
         $("#button-games2").css("opacity", "0.7");
-        $("#descriptions-games").children().slice(0,13).hide();
+        $("#descriptions-games").children().slice(0,numbergames-3).hide();
+
+        $("#pictures-games").children().slice(0,6).hide();
+
+        $("#pictures-games").children().slice(4,6).fadeIn();
 
         $("#descriptions-games").children().slice(6,9).fadeIn(1500);
     });
@@ -228,7 +242,8 @@ $( document ).ready(function() {
         $("#pictures").children().hide();
         $("#descriptions").children().hide();
 
-        $("#description-hatch").fadeIn('slow');
+        $("#pictures-hatch").show();
+        $("#descriptions-hatch").fadeIn('slow');
 
     });
 

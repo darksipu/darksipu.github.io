@@ -121,7 +121,7 @@ svg {
     font-family: Roboto Mono;
 }
 
-#museumvideo {
+.museumvideo {
     margin: 5% 0 1% 3%;
 }
 
@@ -151,4 +151,13 @@ svg {
     display: inline-block;
     height: 90%;
     width: 90%;
+}
+
+
+.githubs {
+    margin: 5% 0 1% 40%;
+}
+
+.neu-images {
+    margin: 10% 0 2.5% 15%;
 }
