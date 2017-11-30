@@ -278,8 +278,8 @@
 
                     <div id="descriptions-4th" class="description-container">
 
-                        <p id="description-4th1" class="descriptions">I’m currently part of the LAB lab at UCL. I joined to grasp the idea of network interaction in the brain, as it seems like the way forward to understand the brain in real life contexts.</p>
-                        <p id="description-4th2" class="descriptions">Before starting to scan, I have been working on using the Google Cloud Speech API to align subtitles from a movie with the audio description for the blind (DVS service). I made a script that uses Voice Activity Detection (VAD) in Python to get wav files of segments of speech, turn them into flac format, send them to Google and get back a json with speech onset timing and the content. Due to pauses in speech, I am working on using text similarity to combine parts of sentences that were split during the VAD.</p>
+                        <p id="description-4th1" class="descriptions">I joined the LAB lab at UCL to grasp the idea of network interaction in the brain, as it seems like the way forward to understand the brain in real life contexts. My Masters research project involves scanning people watching full length movies, to obtain data on how the brain processes information that resembles real life (e.g. natural scenes, natural language).</p>
+                        <p id="description-4th2" class="descriptions">Before starting the fMRI scans, I have been working on using the Google Cloud Speech API to align subtitles from a movie with the audio description for the blind (DVS service). I made a script that uses Voice Activity Detection (VAD) in Python to get wav files of segments of speech, turn them into flac format, send them to Google and get back a json with speech onset timing and the content. Due to pauses in speech, I am working on using text similarity to combine parts of sentences that were split during the VAD.</p>
                         <p id="description-4th3" class="descriptions">Read further to see where I see this going both in terms of programming and the neuroscience.</p>
 
                         <div class="githubs">
@@ -303,7 +303,6 @@
 
                         <p class="descriptions">One aspect of it that I am exploring is linking the physiology to the computational aspect more thoroughly.</p>
 
-
                         <p class="descriptions">My first aim is to finish off a Python script that allows me to query all the information that we have about a movie at specific time periods. I am planning on approaching the analysis in 2 ways: starting from the brain and starting from the stimulus.</p>
 
                         <p class="descriptions">From the brain side, if we observe an interaction between networks at specific time points, I want to query my movie about what stimulus triggered that BOLD signal. So, I would get the time period, then use the RNN to classify the action happened in this short clip, extract information from the audio description of the same time, classify objects with Tensorflow’s Inception model and if available get a summary of the scene commentary. Obviously, there are multiple resolutions to play around with and this is something that I am looking forward to once we finish scanning.</p>
@@ -313,6 +312,10 @@
                         <p class="descriptions">The next steps for me, at least, is to integrate this knowledge into the design of interfaces and experiences. While some might think of an evil application to get people hooked on Netflix movies designed to leverage what we know about the brain, they can already do this without all of this data.</p>
 
                         <p class="descriptions">It also relates to how we can create a super AI, to which I’m thinking that a deep neural network could be trained based on the brain data and the stimuli presented in the movies to produce what time of stimulus produces what kind of activation.</p>
+
+                        <div style="margin:1% 0 15% 0">
+                            <p> </p>
+                        </div>
 
                         <button id="button-4th1" type="button" class="btn btn-dark btns">Scope</button>
                         <button id="button-4th2" type="button" class="btn btn-dark btns">Process</button>

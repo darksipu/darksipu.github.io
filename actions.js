@@ -86,7 +86,8 @@ $( document ).ready(function() {
 
         $("#descriptions-4th").fadeIn('slow');
 
-        $("#descriptions-4th").children().slice(0,number4th-3).hide();
+        $("#descriptions-4th").children().slice(0,number4th-4).hide();
+        $("#descriptions-4th").children().slice(number4th-4, number4th-3).show();
         $("#descriptions-4th").children().slice(number4th-3,number4th).css("opacity", "1");
         $("#descriptions-4th").children().slice(0,4).fadeIn(2300);
 
