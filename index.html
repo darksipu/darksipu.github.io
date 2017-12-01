@@ -181,20 +181,22 @@
 
                         <!-- Fractals-->
                         <div>
-                            <p class="descriptions">This is an idea developed by thinking about the sublime. Edmund Burke compared the characteristics of the sublime & beauty. How do we turn everyday life into something like this?</p>
-                            <p class="descriptions">We put on some fractal glasses. At the moment I am researching whether to use AR or VR to implement this, meanwhile making this idea of taking beautiful things and turning them into minutes and large things and amplifying them. But hey, we may be able to even excite people about fractals again.</p>
+                            <p class="descriptions">Edmund Burke was one of the first to philosophically compare the aesthetic characteristics of the sublime and beauty. The question that I found myself asking was how these two can appear in everyday life.</p>
+                            <p class="descriptions">Currently, I am in the research phase of making fractal glasses. As in the fractal pattern that I made above, how would some glasses that figure out what we’ve found to be beautiful turn that into a recursive pattern? According to Burke, minute features are the aesthetics of beauty. But at the same time, infinity is associated with the sublime, a feeling of great terror.</p>
+                            <p class="descriptions">At the moment, I’m trying to see what’s possible with applying fractals to objects abstracted from an image. Maybe the next steps are looking into VR or AR. But hey, we may be able to even excite people about fractals again.</p>
                         </div>
 
                         <!-- The collab app-->
                         <div>
-                            <p class="descriptions">My current sketch involves an app where people travel in groups and one member is assigned as the recorder of the experience. This way, the others are not allowed to take pictures, but if they really fee like a scene is beautiful from a certain perspective, they have to interact with the other person to record it. And people change the roles at the next experience.</p>
-                            <p class="descriptions">I really feel like this is a way to learn new ways about your environment and taking interest in what others take interest as well.</p>
+                            <p class="descriptions">When a group of friends sees a street performance or goes to a gallery, everyone takes out their own phones and starts recording the moments separately. By doing this, we put a barrier between us and the world, maybe knowing that we’ll later be able to come back to it. </p>
+                            <p class="descriptions">But if only one person in the group had that ability, the others would actually have to share their perspective of what they find cool or interesting about the scene if they want the ‘recorder' to capture the moment. If you extend the limitations to how much you can record, people may become creative in how they choose to experience a moment.</p>
+                            <p class="descriptions">At the moment I’m thinking and reading about what tricks can be employed by technology to make us put more effort into the present moment and not think about the future.</p>
                         </div>
 
-                        <!-- Evolution of words-->
+<!--                        &lt;!&ndash; Evolution of words&ndash;&gt;
                         <div>
                             <p class="descriptions">Biological evolution is cool, but what happens to concepts - as part of my Masters, I am learning how web scraping works, so I am curious how our concepts of things work - when an AI will use certain words, will that machine use Psychology to refer to something that people study to ‘read your mind’, as most people would put it? Who knows, maybe we can evolve new words, some of which we haven’t even thought that we would need. Words that we need for experiences - you would try to say something, but maybe there’s no word in English for it. Or in Portuguese, nor in Japanese. So how about we make a word based on natural statistics of language?</p>
-                        </div>
+                        </div>-->
 
                     </div>
 
@@ -379,21 +381,19 @@
                         </div>
 
                         <div>
-                            <p class="descriptions">My goal is to take the brain outside the lab and I saw working on network interaction as a great chance of understanding a higher-level functioning of cognitive processes. At the moment, I am spending time understanding what conclusions we can draw from fMRI data and think about the questions that we can answer through an average signal across the neurons in a voxel.</p>
-                            <p class="descriptions">A side consequence that became a big part of the project is the decoding of movies. For this, I am using the transcribed audio descriptions for the blind, currently building a LSTM network to train it on Deep Mind’s Kinetics <a style="text-decoration: none" href="https://deepmind.com/research/open-source/open-source-datasets/kinetics/">data</a> and using NLP to mine commentaries about scenes in the movies. This leads to quite a narrow focus of the decoding, specific to the movie.</p>
-                            <p class="descriptions bottom-line">One aspect of it that I am exploring is linking the physiology to the computational aspect more thoroughly.</p>
-
+                            <p class="descriptions">My goal is to take the brain outside the lab and I saw working on network interaction as a great chance of understanding the higher-level functioning of cognitive processes.</p>
+                            <p class="descriptions bottom-line">Decoding the movies has become a big part of the project. For this, I am using the transcribed audio descriptions for the blind, currently building a LSTM network to train it on Deep Mind’s Kinetics <a style="text-decoration: none" href="https://deepmind.com/research/open-source/open-source-datasets/kinetics/">data</a> and using NLP to mine commentaries about scenes in the movies.</p>
                         </div>
 
                         <div>
                             <p class="descriptions">My first aim is to finish off a Python script that allows me to query all the information that we have about a movie at specific time periods. I am planning on approaching the analysis in 2 ways: starting from the brain and starting from the stimulus.</p>
-                            <p class="descriptions">From the brain side, if we observe an interaction between networks at specific time points, I want to query my movie about what stimulus triggered that BOLD signal. So, I would get the time period, then use the RNN to classify the action happened in this short clip, extract information from the audio description of the same time, classify objects with Tensorflow’s Inception model and if available get a summary of the scene commentary. Obviously, there are multiple resolutions to play around with and this is something that I am looking forward to once we finish scanning.</p>
-                            <p class="descriptions bottom-line">From the stimulus side, I am interested to see if having the same type of stimulus appear across different time points across the movie would result in the same network interaction in the brain. For this, we would go the other way around, also comparing to what the literature says about stimuli triggering the activation of specific brain regions (e.g. angry faces for the amygdala).</p>
+                            <p class="descriptions">From the brain side, if we observe an interaction between networks at specific time points, I want to query my movie about what stimulus triggered that BOLD signal. So, I would get the time period, then use the RNN to classify the action happened in this short clip, extract information from the audio description of the same time, classify objects with Tensorflow’s Inception model and if available get a summary of the scene commentary. There are multiple resolutions to play around with and this is something that I am looking forward to, once we finish scanning.</p>
+                            <p class="descriptions bottom-line">From the stimulus side, I am interested to see if having the same type of stimulus appear at different time points across the movie would result in the same network interaction in the brain. For this, we would go the other way around, also comparing to what the literature says about stimuli triggering the activation of specific brain regions (e.g. angry faces for the amygdala).</p>
 
                         </div>
 
                         <div>
-                            <p class="descriptions">The next steps for me, at least, is to integrate this knowledge into the design of interfaces and experiences. While some might think of an evil application to get people hooked on Netflix movies designed to leverage what we know about the brain, they can already do this without all of this data.</p>
+                            <p class="descriptions">The next steps for me is to integrate this knowledge into the design of interfaces and experiences. While some might think of an evil application to get people hooked on Netflix movies designed to leverage what we know about the brain, they can already do this without all of this data.</p>
                             <p class="descriptions bottom-line">It also relates to how we can create a super AI, to which I’m thinking that a deep neural network could be trained based on the brain data and the stimuli presented in the movies to produce what time of stimulus produces what kind of activation.</p>
                         </div>
 
@@ -449,9 +449,10 @@
                                         </g>
                                     </g>
                                 </svg><span class="heads"> No more filming</span></a></li>
+<!--
 
                             <li><a id='words' href="#" class="project-name"><svg width="7%" height="15%" viewBox="0 0 8 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+                                    &lt;!&ndash; Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch &ndash;&gt;
                                     <title>chevron-right</title>
                                     <desc>Created with Sketch.</desc>
                                     <defs></defs>
@@ -461,6 +462,7 @@
                                         </g>
                                     </g>
                                 </svg><span class="heads">Word evolution</span></a></li>
+-->
 
                         </ul>
                     </div>

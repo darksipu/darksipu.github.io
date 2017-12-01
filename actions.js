@@ -92,7 +92,7 @@ $( document ).ready(function() {
 
         $("#pictures-4th").show();
         $("#pictures-4th").children().slice(0,2).hide();
-        $("#pictures-4th").children().slice(0,1).fadeIn(1900);
+        $("#pictures-4th").children().slice(1,2).fadeIn(1900);
 
         $("#descriptions-4th").fadeIn('slow');
 
