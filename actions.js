@@ -297,6 +297,16 @@ $( document ).ready(function() {
 
     });
 
+    $("#vr").click(function(){
+
+        $("#pictures").children().hide();
+        $("#descriptions").children().hide();
+
+        $("#pictures-harvard").show();
+        $("#descriptions-harvard").fadeIn('slow');
+
+    });
+
 
     $("#ideas").click(function(){
         $("#pictures").children().hide();
